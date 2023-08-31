@@ -1,5 +1,3 @@
-# This Script is currently private and only meant to serve as a reference to the reviewers of ASRU 2023
-
 import torch
 import torch as th
 import torch.nn as nn
