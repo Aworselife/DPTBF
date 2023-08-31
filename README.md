@@ -7,5 +7,6 @@ We use a dual-path transformer structure to directly predict the beamforming wei
 The figure below shows the architecture of our proposed DPTBF.
 ![main](https://github.com/Aworselife/DPTBF/assets/39001332/0cbc9419-10c3-430c-bbe3-a20cccb54bdd)
 
-The source code of the model is also provided for understanding the dimension transformation and reproducing the experiment.
+The source code of the model is provided for understanding the dimension transformation and reproducing the experiment.
+For an introduction to model details, please refer to [Dual-path Transformer Based Neural Beamformer for Target Speech Extraction](https://arxiv.org/abs/2308.15990)
 The model has no extra tricks, use the [pyroacoustics](https://github.com/LCAV/pyroomacoustics) to generate a data set, and then you can use your own framework for normal training.
